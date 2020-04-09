@@ -29,6 +29,7 @@ int main(int argc, char **argv) {
 
   printf("min: %d\n", min_max.min);
   printf("max: %d\n", min_max.max);
+  
 
   return 0;
 }
