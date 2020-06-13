@@ -68,10 +68,10 @@ int main(int argc, char **argv) {
   struct sockaddr_in servaddr;
   struct sockaddr_in cliaddr;
 
-  if (argc != 2) {
+  /*if (argc != 2) {
     printf("usage: client <IPaddress of server>\n");
     exit(1);
-  }
+  }*/
 
   memset(&servaddr, 0, sizeof(servaddr));
   servaddr.sin_family = AF_INET;
